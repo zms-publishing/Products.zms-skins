@@ -1,13 +1,13 @@
 """
 ===================
-zms-skins
+Products.zms-skins
 ===================
 The Zope Product zms-skins acts as a helper to register filesystem pathes for
 your Zope skins with CMFCore.registerDirectory. To make the product generally
 working its configure.zcml contains only one recursive directory registration:
-/skins
+./skins
 For using your skins with the Zope instances based on current virtual python
-context, please add your projects skin-code folders as symlinks to this /skins
+context, please add your projects skin-code folders as symlinks to this ./skins
 folder.
 """
 from setuptools import setup, find_packages
