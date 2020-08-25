@@ -19,8 +19,7 @@ setup(
     author='HOFFMANN+LIEBENBERG in association with SNTL Publishing, Berlin',
     author_email='zms@sntl-publishing.com',
     description='Registry for Filesystem based Zope Skins',
-    packages=find_packages('src'),
+    packages=find_packages(),
     namespace_packages=['Products'],
-    package_dir={'': 'src'},
     zip_safe=False,
 )
