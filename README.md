@@ -9,3 +9,5 @@ working its configure.zcml contains only one recursive directory registration:
 For using your skins with the Zope instances based on the current virtual python
 context, please add your projects skin-code folders as symlinks to the empty
 ./skins folder.
+
+![Usage example](demo.png)
