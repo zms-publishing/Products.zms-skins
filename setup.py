@@ -23,5 +23,6 @@ setup(
     license='MIT',
     packages=find_packages(),
     namespace_packages=['Products'],
+    include_package_data=True,
     zip_safe=False,
 )
